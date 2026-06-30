@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
+import { Badge } from "@/components/ui/badge";
 import { useAuth } from "@/app/_components/AuthProvider";
 import { paymentApi } from "@/app/_lib/api";
 import { Check, Crown, Sparkles, Loader2 } from "lucide-react";
